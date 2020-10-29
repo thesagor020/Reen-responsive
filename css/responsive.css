@@ -1,0 +1,306 @@
+
+  
+ /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    header .header-contact h6 {
+        font-size: 12px;
+    }
+   
+    header .header-social {
+      padding-top: 15px;
+      margin-right: 45px;
+    }
+    .navbar-section img {
+        margin-left: 10px;
+    }
+    .navbar-section .navbar-toggler {
+        margin-right: 10px;
+    }
+    .banner-inner {
+        padding: 50px 0px;
+    }
+    .banner .banner-inner h1 {
+        font-size: 42px;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+    .banner .banner-inner p {
+        font-size: 18px;
+        padding: 5px 0px 5px;
+    }
+    .banner .banner-inner .btn-info {
+        padding: 14px 12px;
+    }
+    .service {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .service .title h1 {
+        font-size: 33px;
+        line-height: 42px;
+    }
+    .service .title p {
+        font-size: 18px;
+    }
+    .service .title {
+      padding-bottom: 30px;
+    }
+    .service-inner .media-body {
+        font-size: 16px;
+        margin-right: 5px;
+    }
+    .service-inner .media {
+        margin-left: 10px;
+    }
+    .works {
+        padding: 30px 0px 0px;
+    }
+    .works .title h1 {
+        font-size: 31px;
+        line-height: 42px;
+    }
+    .works .title p {
+        font-size: 18px;
+    }
+    .works .title {
+        padding-bottom: 20px;
+    }
+    .works-inner img {
+        width: 100%;
+    }
+    .works-bg h3 {
+        font-size: 17px;
+    }
+    .work-heading {
+        padding: 10px 0px 0px;
+    }
+    .work-heading .title h1 {
+        font-size: 33px;
+        line-height: 42px;
+    }
+    .work-heading .title p {
+        font-size: 18px;
+    }
+    .work-heading .btn-info {
+        padding: 15px 23px;
+        letter-spacing: 2px;
+    }
+    .work-heading .title {
+        padding-bottom: 40px;
+    }
+    .works .owl-theme .owl-dots .owl-dot span {
+        margin: 23px 7px;
+    }
+    .owl-carousel.owl-theme.owl-loaded.owl-drag {
+        padding: 40px 0px;
+    }
+    .counter {
+        padding: 50px;
+        margin-bottom: 15px;
+    }
+    .working-heading {
+        padding: 0px 0px 30px;
+    }
+    .foot-logo {
+        text-align: center;
+    }
+    .latest-work {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .get-touch {
+        padding-bottom: 20px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .foot-update {
+        text-align: center;
+    }
+    .foot-update .form-control {
+        width: 90%;
+        margin-left: 15px;
+    }
+    .foot-update .btn-primary {
+        bottom: 0%;
+        right: 33px;
+        padding: 10px 3px;
+        font-size: 13px;
+        font-weight: 700;
+    }
+    .footer-widget {
+      padding: 40px 0px;
+    }
+    footer .foot-menu {
+      text-align: center;
+    }
+    footer .copyright-text {
+      text-align: center;
+    }
+    
+  } 
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    header .header-contact {
+        text-align: center;
+    }
+    header .header-social {
+        margin-right: 110px;
+    }
+    .banner-inner {
+        padding: 100px 0px;
+    }
+    .banner .banner-inner h1 {
+        font-size: 46px;
+        letter-spacing: 4px;
+        font-weight: 700;
+    }
+    .banner .banner-inner p {
+        font-size: 21px;
+    }
+    .service {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .service .title {
+        padding-bottom: 40px;
+    }
+    .service-inner {
+        margin-bottom: 30px;
+    }
+    .works {
+        padding: 40px 0px 0px;
+    }
+    .works .title {
+        padding-bottom: 40px;
+    }
+    .works .title h1 {
+        font-size: 35px;
+        line-height: 44px;
+    }
+    .works-inner img {
+        width: 100%;
+    }
+    .work-heading {
+        padding: 20px 0px 0px;
+    }
+    .work-heading .title h1 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .work-heading .title {
+        padding-bottom: 50px;
+    }
+    .counter {
+        margin-bottom: 20px;
+    }
+    .foot-logo {
+        text-align: center;
+        margin-bottom:30px
+    }
+    .latest-work {
+        text-align: center;
+        margin-bottom:30px
+    }
+    .get-touch {
+        text-align: center;
+        margin-bottom: 30px;
+    }    
+    .foot-update {
+        text-align: center;
+    }
+    .foot-update .btn-primary {
+        bottom: 0%;
+        right: 15px;
+        padding: 10px 5px;
+    }
+    footer .copyright-text {
+        text-align: center;
+    }
+    footer .foot-menu {
+        text-align: center;
+    }
+
+      
+  }
+    /* 
+
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+    
+    */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .banner-inner {
+        padding: 120px 0px;
+    }
+    .banner .banner-inner h1 {
+        font-size: 44px;
+        font-weight: 700;
+        letter-spacing: 4px;
+    }
+    .banner .banner-inner .btn-info {
+        padding: 15px 20px;
+    }
+    .service {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .service .title h1 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .service .title p {
+        font-size: 19px;
+    }
+    .works {
+        padding: 60px 0px 0px;
+    }
+    .works-inner img {
+        width: 100%;
+    }
+    .owl-carousel.owl-theme.owl-loaded.owl-drag {
+        padding: 40px 0px;
+    }
+    .work-heading {
+        padding: 50px 0px 0px;
+    }
+    .work-heading .title {
+        padding-bottom: 50px;
+    }
+    .counter .demo {
+        font-size: 50px;
+    }
+    
+    .footer-widget .foot-logo h2 {
+        font-size: 15px;
+    }
+    .latest-work h2 {
+        font-size: 15px;
+    }
+    .get-touch h2 {
+        font-size: 15px;
+    }
+    .foot-update h2 {
+        font-size: 15px;
+    }
+    .foot-update .btn-primary {
+        bottom: 51%;
+        right: 14px;
+        padding: 14px 0px;
+        font-size: 10px;
+        font-weight: 400;
+        text-transform: capitalize;
+    }   
+   
+    
+}
+
+ 

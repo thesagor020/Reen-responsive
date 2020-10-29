@@ -1,0 +1,471 @@
+/*
+  Theme Name: Name - REEN HOMEPAGE
+  Author: sagorhossain020@gmail.com
+*/
+
+/* CSS Index
+-----------------------------------
+1. Theme default css
+2. header
+3. slider
+4. about-area
+5. features-box
+6. department
+7. team
+8. video-area
+9. counter
+10. footer
+*/
+
+
+
+/* 1. Theme default css */
+ body {
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+.img {
+	max-width: 100%;
+	transition: all 0.3s ease-out 0s;
+}
+.f-left {
+	float: left
+}
+.f-right {
+	float: right
+}
+.ml-25{
+	margin-left: 25px;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+li {
+	list-style: none;
+}
+
+.fix {
+	overflow: hidden
+}
+.bg{
+	background: #000000;
+}
+
+/*Default css end*/
+
+/***************************************
+	Header Section Css start
+***************************************/
+
+header{
+	padding-bottom: 15px;
+	background: #f5f7fa;
+	border-bottom: 2px solid #e6e9ed;
+}
+header .header-contact{
+	padding-top: 24px;
+}
+header .header-contact h6 {
+	display: inline;
+	color: #798da2;
+	font-size: 14px;
+	font-weight: 600;
+	}
+
+header .header-contact i {
+	padding-right: 12px;
+	color: #798da2;
+	font-size: 16px;
+	}
+header .header-social{
+	float: right;
+}
+header .header-social{
+	padding-top: 24px;
+}
+header .header-social ul li{
+	display: inline;
+	padding: 0px 10px;
+}	
+header .header-social ul li a{
+	color: #798da2;
+	font-size: 14px;
+}	
+header .header-social ul li a i{
+	font-size: 16px;
+}	
+
+/***************************************
+		Header end
+***************************************/
+.navbar-section {
+	width: 100%;
+    padding: 40px 0px;
+}
+ .navbar-wrapper{
+	position: relative;
+	z-index: 15;
+}
+.isStuck{
+    left:0px;
+	width:100%;
+	background: #fff;
+}
+.navbar-section .navbar.navbar-expand-lg.navbar-light{
+	padding: 0px;
+}
+.navbar-section .navbar-nav.mr-auto {
+    margin-left: 70px;
+}
+.navbar-section nav ul li{
+	padding: 0px 15px;
+}
+.navbar-section .navbar-light .navbar-nav .nav-link{
+	color: #506a85;
+	font-size: 15px;
+	font-weight: 700;
+}
+.navbar-section nav a{
+	color: #798da2;
+	font-size: 18px;
+}
+/***********************************************
+			navbar-section end
+***********************************************/
+.banner{
+	width: 100%;
+	background: url(..//img/banner/banner.png) center top no-repeat;
+	background-size: cover;
+}
+.banner-inner{
+	width: 100%;
+	text-align: center;
+	padding: 300px 0px;
+}
+.banner .banner-inner h1{
+	font-size: 78px;
+	font-weight: 900;
+	color: #ffffff;
+	letter-spacing: 10px;
+}
+.banner .banner-inner p{
+	font-size: 22px;
+	font-weight: 400;
+	color: #a3b1bf;
+	padding: 10px 0px 25px;
+}
+.banner .banner-inner .btn-info{
+	color: #fff;
+	background-color: #00bc9c;
+	border-color: #00bc9c;
+	padding: 10px 30px;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 2px;
+	transition: 1s;
+}
+.banner .banner-inner .btn-info:hover{
+    background-color: transparent;
+    border-color: #00bc9c;
+}
+/***********************************************
+					banner end
+***********************************************/
+.service{
+	width: 100%;
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+.service .title{
+	width: 100%;
+	text-align: center;
+	padding-bottom: 70px;
+}
+.service .title h1{
+	font-size: 44px;
+	font-weight: 700;
+	color: #506a85;
+	line-height: 54px;
+}
+.service .title p{
+	font-size: 22px;
+	font-weight: 400;
+	color:#73879c;
+}
+.service-inner{
+	width: 100%;
+}
+.service-inner img{
+	position: relative;
+}
+.service-inner h5{
+	color: #506a85;
+	font-size: 26px;
+	font-weight: 700;
+}
+.service-inner .media-body{
+	color: #73879c;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+/****************************************************
+
+				service part end
+
+****************************************************/
+.works{
+	width: 100%;
+	background: #f2f5f7;
+	padding: 120px 0px 0px;
+}
+.works .title{
+	width: 100%;
+	text-align: center;
+	padding-bottom: 70px;
+}
+.works .title h1{
+	font-size: 44px;
+	font-weight: 700;
+	color: #506a85;
+	line-height: 54px;
+}
+.works .title p{
+	font-size: 22px;
+	font-weight: 400;
+	color:#73879c;
+}
+.works-bg{
+	width: 100%;
+	text-align: center;
+	padding: 30px 0px;
+	background: #ffffff;
+}
+.works-bg h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #506a85;
+}
+.works-bg p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #506a85;
+}
+.works .owl-theme .owl-dots .owl-dot span {
+	background: #506a85;
+	margin: 32px 8px;
+}
+.works .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #00bc9c;
+}
+.owl-carousel.owl-theme.owl-loaded.owl-drag {
+    padding: 120px 0px;
+}
+
+/****************************************************
+
+				works part end
+
+****************************************************/
+
+.work-heading{
+	width: 100%;
+	padding: 120px 0px 0px;
+}
+.work-heading .title{
+	width: 100%;
+	text-align: center;
+	padding-bottom: 120px;
+}
+.work-heading .title h1{
+	font-size: 44px;
+	font-weight: 700;
+	color: #506a85;
+	line-height: 54px;
+}
+.work-heading .title p{
+	font-size: 22px;
+	font-weight: 400;
+	color:#73879c;
+}
+
+.work-heading .btn-info{
+	color: #fff;
+	background-color: #00bc9c;
+	border-color: #00bc9c;
+	padding: 10px 30px;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 2px;
+	transition: 1s;
+}
+
+/****************************************************
+				work-heading part end
+
+****************************************************/
+.working-heading{
+	width: 100%;
+	padding: 0px 0px 70px;
+}
+.counter{
+	width: 100%;
+	padding: 50px;
+	text-align: center;
+	border: 2px solid #08c;
+}
+.counter .demo{
+	font-size: 80px;
+	color: #08c;
+}
+.counter .fa{
+	font-size: 60px;
+	color: #0088cc;
+}
+/****************************************************
+				counter part end
+
+****************************************************/
+.footer-widget{
+	width: 100%;
+	background: #2f4052;
+	padding: 70px 0px;
+}
+.footer-widget .foot-logo h2{
+	font-size: 22px;
+	font-weight: 700;
+	color: #ffffff;
+	padding-bottom: 20px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+.footer-widget .foot-logo p{
+	font-size: 14px;
+	color: #a3b1bf;
+	font-weight: 400;
+	line-height: 24px;
+	padding: 25px 0px 12px;
+}
+.footer-widget .foot-logo a{
+	font-size: 15px;
+	color: #a3b1bf;
+	font-weight: 700;
+	line-height: 24px;
+	text-decoration: none;
+}
+.footer-widget .foot-logo a i {
+    margin-left: 14px;
+    font-size: 14px;
+}
+.latest-work{
+	width: 100%;
+}
+.latest-work ul li {
+    display: inline;
+    padding: 0px 3px;
+}
+.latest-work img{
+	margin-bottom: 8px;
+}
+.latest-work h2{
+	font-size: 22px;
+	font-weight: 700;
+	color: #ffffff;
+	padding-bottom: 20px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+.get-touch{
+	width: 100%;
+}
+.get-touch h2{
+	font-size: 22px;
+	font-weight: 700;
+	color: #ffffff;
+	padding-bottom: 13px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+.get-touch p{
+	font-size: 14px;
+	color: #a3b1bf;
+	font-weight: 400;
+	line-height: 24px;
+}
+.get-touch ul li {
+    color: #a3b1bf;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.get-touch i {
+    margin-right: 10px;
+}
+.foot-update h2{
+	font-size: 22px;
+	font-weight: 700;
+	color: #ffffff;
+	padding-bottom: 13px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+.foot-update p{
+	font-size: 14px;
+	color: #a3b1bf;
+	font-weight: 400;
+	line-height: 24px;
+}
+.foot-update .form-control {
+    border-radius: 0px;
+    border: none;
+    font-size: 14px;
+    height: calc(1.5em + .75rem + 10px);
+    background: #4e5c6c;
+}
+.foot-update .btn-primary {
+    position: absolute;
+    bottom: 39%;
+    right: 20px;
+    padding: 5px 5px;
+    color: #fff;
+    background: #00bc9c;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 1s;
+    border-radius: 5px;
+}
+
+/****************************************************
+				footer-widget part end
+
+****************************************************/
+footer{
+	width: 100%;
+	background: #283645;
+	padding: 40px 0px;
+}
+footer .copyright-text{
+	width: 100%;
+}
+footer .copyright-text p{
+	font-size: 14px;
+	font-weight: 400;
+	color: #707e8c;
+}
+footer .foot-menu{
+	width: 100%;
+	text-align: right;
+}
+footer .foot-menu ul li{
+	display: inline;
+	padding: 0px 5px;
+}
+footer .foot-menu ul li a{
+	color: #707e8c;
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: none;
+}
+
